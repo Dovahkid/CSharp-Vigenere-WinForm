@@ -156,7 +156,10 @@
             this.Controls.Add(this.radDecrypt);
             this.Controls.Add(this.radEncrypt);
             this.Controls.Add(this.btnSubmit);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Vigener Cipher";
             this.groupBox1.ResumeLayout(false);
